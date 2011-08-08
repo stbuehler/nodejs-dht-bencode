@@ -1,7 +1,7 @@
 {
   "name": "dht-bencode",
   "description": "bencoding with Buffers instead of strings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/stbuehler/nodejs-dht-bencode",
   "author": "Stefan Bühler <stbuehler@lighttpd.net> (based on implementation from Anton Ekblad)",
   "repository" : {
@@ -14,5 +14,8 @@
   },
   "engines": {
     "node": "*"
+  },
+  "scripts": {
+    "test": "node lib/test.js"
   }
 }
