@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/stbuehler/nodejs-dht-bencode.png)](http://travis-ci.org/stbuehler/nodejs-dht-bencode)
 # dht-bencode
 
 [bencode](http://bittorrent.org/beps/bep_0003.html#the-connectivity-is-as-follows "bencode reference") with Buffer()s from nodejs (as it is binary data, javascript string are not a good idea to handle it)
